@@ -1,6 +1,7 @@
 :root {
   // PRIMARY COLORS
   --red: hsl(0, 100%, 68%);
+  --red-hover: rgb(255, 132, 132);
 
   // NEUTRAL COLORS
   --very-dark-blue: hsl(230, 29%, 20%);
@@ -9,8 +10,13 @@
   --light-grayish-blue: hsl(207, 33%, 95%);
 
   // TYPOGRAPHY
-  --font-size: 1.8rem;
-  --major-font-family: "Barlow Condensed", sans-serif;
+  --body-font-size: 1.8rem;
+  --primary-font-family: "Barlow Condensed", sans-serif;
   --font-w-regular: 400;
   --font-w-bold: 700;
+
+  // SIZE/width
+  --container-max-width: 144rem;
+  --nav-max-width: 111rem;
+  --layout-max-width: 128rem;
 }
